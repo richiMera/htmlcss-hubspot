@@ -176,8 +176,20 @@ background-color: lightgray;
 #first-main-box {
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: yellow;
+}
+#first-main-box img {
+  width: 300px;
+  height: auto;
+  margin-top: 30px;
+}
+#cube-block {
+  text-align: center;
+  padding: 0 150px;
+}
+#cube-block p {
+  margin-top: 20px;
 }
 
 #second-main-box {
