@@ -7,6 +7,7 @@
 header {
   width: 100%;
   background-color: gray;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after {
@@ -22,8 +23,11 @@ a:hover {
   text-decoration: underline;
 }
 
-h1, h2, a, p {
+h1, h2, h3, a, p, li {
   color: #33475b;
+}
+p {
+  font-size: 13px;
 }
 
 .orange-buttom {
@@ -185,7 +189,7 @@ a.learn-more-btn {
 main {
 width: 100%;
 height: 1000px;
-background-color: lightgray;
+font-family: 'Montserrat', sans-serif;
 }
 
 #first-main-box {
@@ -235,7 +239,38 @@ background-color: lightgray;
 #write {
   width: 70%;
   height: 100%;
-  background-color: purple;
+  background-color: white;
+  padding-right: 170px;
+  position: relative;
+}
+#write h2 {
+  margin-top: 50px;
+}
+
+#write p {
+  padding-top: 40px;
+}
+#write h3 {
+  padding-top: 20px;
+  font-size: 15px;
+}
+#write-menù li {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+hr {
+  width: 50%;
+  display: inline-block;
+  line-height: 30px;
+  position: absolute;
+  right: 20%;
+  bottom: 38%;
+}
+.fa-check-circle {
+  color: orange;
+  padding-right: 10px;
 }
 
 #thirth-main-box {
