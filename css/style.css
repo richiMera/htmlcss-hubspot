@@ -190,6 +190,7 @@ main {
 width: 100%;
 height: 1000px;
 font-family: 'Montserrat', sans-serif;
+background-color: #F5F8FA;
 }
 
 #first-main-box {
@@ -224,11 +225,16 @@ font-family: 'Montserrat', sans-serif;
 }
 #book img {
   width: 150px;
+  margin-top: 50px;
+}
+.images-main {
+  width: 100px;
+  height: 84px;
   display: block;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 50px;
+  margin-top: 30px;
 }
 #book-button {
   margin-top: 20px;
@@ -257,8 +263,9 @@ font-family: 'Montserrat', sans-serif;
 #write-menù li {
   display: inline-block;
   text-decoration: none;
-  padding-top: 20px;
-  padding-right: 30px;
+  padding-top: 28px;
+  padding-right: 15px;
+  font-size: 13px;
 }
 hr {
   width: 50%;
@@ -276,7 +283,8 @@ hr {
 #thirth-main-box {
   width: 100%;
   height: 500px;
-  background-color: red;
+  background-color: #F5F8FA;
+  margin-top: 50px;
 }
 .main-column {
   width: 30%;
@@ -285,4 +293,18 @@ hr {
 }
 #mid-block {
   margin: 0 5%;
+}
+
+.top-main-block {
+  width: 100%;
+  height: 60%;
+  background-color: lightgray;
+  text-align: center;
+}
+.top-main-block h2 {
+  padding-top: 20px;
+}
+.top-main-block p {
+  padding: 25px 15px;
+  font-size: 14px;
 }
