@@ -32,11 +32,26 @@ h1, h2, a, p {
   border: 1px solid #ff7a59;
   border-radius: 5px;
   cursor: pointer;
+  display: inline-block;
 }
 .orange-buttom:hover {
   background-color: #ffbcac;
   border-color: #ffbcac;
 }
+
+a.learn-more-btn {
+  width: 170px;
+  height: 100%;
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-box-border {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
 
 .width-box {
   width: 70%;
@@ -177,10 +192,10 @@ background-color: lightgray;
   position: relative;
   width: 100%;
   height: 400px;
-  background-color: yellow;
+  background-color: #F5F8FA;
 }
 #first-main-box img {
-  width: 300px;
+  width: 280px;
   height: auto;
   margin-top: 30px;
 }
@@ -189,19 +204,34 @@ background-color: lightgray;
   padding: 0 150px;
 }
 #cube-block p {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #second-main-box {
   width: 100%;
   height: 300px;
-  background-color: green;
+  background-color: #F5F8FA;
 }
 #book {
   width: 30%;
   height: 100%;
-  background-color: blue;
+  background-color: white;
+  text-align: center;
 }
+#book img {
+  width: 150px;
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+}
+#book-button {
+  margin-top: 20px;
+}
+
+
+
 #write {
   width: 70%;
   height: 100%;
