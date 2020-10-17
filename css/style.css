@@ -336,13 +336,13 @@ hr {
 
 .forth-main-box {
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
   background-color: #00AEB4;
   margin-top: 50px;
 }
 .top-of-the-forth-block {
   width: 100%;
-  height: 30%;
+  /* height: 30%; */
   text-align: center;
 }
 .top-of-the-forth-block h2 {
@@ -354,16 +354,19 @@ color: white;
 font-size: 14px;
 }
 
+.blue-box {
+  margin-top: 50px;
+}
+
 .mid-of-the-forth-block {
   position: relative;
   width: 100%;
-  height: 30%;
-  padding-top: 20px;
+  /* height: 30%; */
 }
 .cell {
   width: 25%;
-  height: 100%;
-  border: 1px solid white;
+  /* height: 100%; */
+  border: 0.5px solid white;
   text-align: center;
   padding: 20px;
   line-height: 40px;
@@ -384,11 +387,23 @@ span {
   font-size: 30px;
   color: white;
 }
+.bdr-left-no{
+  border-left: 0px;
+}
+.bdr-right-no {
+  border-right: 0px;
+}
+.bdr-top-no {
+  border-top: 0px;
+}
+.bdr-bottom-no {
+  border-bottom: 0px;
+}
 
 .bottom-of-the-fourth-block {
   position: relative;
   width: 100%;
-  height: 30%;
+  /* height: 30%; */
 }
 #app-marketplace {
   width: 150px;
