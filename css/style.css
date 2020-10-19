@@ -138,11 +138,11 @@ a.learn-more-btn {
   vertical-align: middle;
 }
 
-.menù li {
+.menu li {
   padding-left: 30px;
   display: inline-block;
 }
-.menù .fa-angle-down {
+.menu .fa-angle-down {
   margin-left: 10px;
 }
 
@@ -170,7 +170,7 @@ a.learn-more-btn {
   width: 160px;
   height: 50px;
 }
-#advice {
+.advice {
   font-size: 12px;
 }
 
@@ -261,7 +261,7 @@ background-color: #F5F8FA;
   padding-top: 20px;
   font-size: 15px;
 }
-#write-menù li {
+#write-menu li {
   display: inline-block;
   text-decoration: none;
   padding-top: 28px;
@@ -318,7 +318,7 @@ hr {
 .bottom-main-block h3 {
   text-align: center;
 }
-.bottom-main-block #normal-list {
+.bottom-main-block .normal-list {
   text-align: left;
   padding-top: 30px;
   padding-left: 20px;
@@ -330,14 +330,14 @@ hr {
   margin-bottom: 20px;
 }
 
-#normal-list li {
+.normal-list li {
   list-style: none;
 }
 
 .forth-main-box {
   width: 100%;
   /* height: 600px; */
-  background-color: #00AEB4;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   margin-top: 50px;
 }
 .top-of-the-forth-block {
@@ -408,3 +408,95 @@ span {
 #app-marketplace {
   width: 150px;
 }
+
+#fifth-main-box {
+  width: 100%;
+  background-color: #fff;
+}
+.container-60 {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+
+.top-left-fifth-box {
+  display: inline;
+  width: 30%;
+  height: 100%;
+}
+#number-cont-60 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#number-cont-60 h2 {
+  font-size: 2.5rem;
+}
+.top-left-fifth-box p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.sponsor-box {
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+  line-height:40px;
+  margin-top: 40px;
+}
+.sponsor-box img {
+  width: 120px;
+}
+.sponsor-box-dimension {
+  max-height: 100%;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+#monkey, #ware {
+  margin-top: -20px;
+}
+#classpass {
+  margin-top: -10px;
+}
+
+
+
+#bottom-fifth-box {
+  width: 100%;
+  height: 320px;
+  margin-top: 40px;
+}
+.text-container {
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+}
+.closing-main-box {
+  padding-top: 30px;
+}
+#bottom-btn {
+  width: 175px;
+  height: 70px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+}
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-bottom: 20px;
+}
+
+
+
+/* Risolvere problema pulsante */
