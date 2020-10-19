@@ -512,6 +512,9 @@ span {
 
 
 /* Risolvere problema pulsante */
+footer {
+  position: relative;
+}
 
 .footer-container {
   width:100%;
@@ -609,4 +612,40 @@ span {
 }
 .footer-bottom-list a {
   color: #fff;
+}
+
+
+.fixed-box {
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 10%;
+  right: 1%;
+  padding: 30px 10px;
+}
+#fixed-text p {
+  line-height: 1.4;
+  color: #33475b;
+  font-size: 13px;
+  display: inline-block;
+}
+.fa-hand-scissors {
+  color: yellow;
+}
+.fa-comment-alt {
+  font-size: 40px;
+  padding: 10px;
+  color: #fff;
+  display: inline-block;
+}
+.icon-fixed-box {
+  position: fixed;
+  bottom: 0;
+  right: 1%;
+  background-color: #425B76;
+  border: 1px solid #425B76;
+  border-radius: 50%;
 }
