@@ -632,6 +632,15 @@ footer {
   font-size: 13px;
   display: inline-block;
 }
+#fixed-text img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+}
+
 .fa-hand-scissors {
   color: yellow;
 }
@@ -645,6 +654,7 @@ footer {
   position: fixed;
   bottom: 0;
   right: 1%;
+  margin-top: 10px;
   background-color: #425B76;
   border: 1px solid #425B76;
   border-radius: 50%;
